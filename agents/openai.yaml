@@ -1,0 +1,14 @@
+interface:
+  display_name: Research Visual Analytics
+  short_description: Design and audit rigorous scientific visual analysis
+  default_prompt: Use $research-visual-analytics to audit this research workspace
+    for encoding, coordination, and evidence correctness.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
